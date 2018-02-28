@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.strivestay.viewpagerdemo.MainActivity">
+
+    <include layout="@layout/layout_toolbar"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+
+       <!-- <android.support.v4.view.PagerTabStrip
+            android:id="@+id/pager_tab"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="top"
+            android:background="@android:color/white"
+            android:textColor="#ff0000">
+
+        </android.support.v4.view.PagerTabStrip>-->
+
+        <!--<android.support.v4.view.PagerTitleStrip
+            android:id="@+id/pager_title"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@android:color/white"
+            android:layout_gravity="top"
+            android:textColor="#ff0000"
+            android:textSize="18sp">
+
+        </android.support.v4.view.PagerTitleStrip>-->
+
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>
